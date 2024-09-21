@@ -4,7 +4,7 @@
  */
 package Controller;
 
-import Model.Pessoa;
+
 import java.util.List;
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
@@ -204,6 +204,7 @@ public class GenericController {
     /*
     para tabela pessoa
     */
+    /*
     public Object logarEmail(String email) {
         fabrica = Persistence.createEntityManagerFactory("aaaaaPU");
         gerente = fabrica.createEntityManager();
@@ -215,7 +216,7 @@ public class GenericController {
         }
 
     }
-    
+    */
     /**
      * Metodos mais especificos caso haja algum problema
      */
